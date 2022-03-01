@@ -94,10 +94,11 @@ WSGI_APPLICATION = 'kodinghandle.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'haidarali',
-        'HOST': 'localhost'
+        'NAME': 'defaultdb',
+        'USER': 'doadmin',
+        'PORT': 25060,
+        'PASSWORD': '6LVfwsOCPn2yvkLe',
+        'HOST': 'haidarali-do-user-8429993-0.b.db.ondigitalocean.com'
     }
 }
 
